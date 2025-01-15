@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1a827fe7.css",
-    "main.js": "/static/js/main.4e311f70.js",
-    "static/js/787.8f1436d7.chunk.js": "/static/js/787.8f1436d7.chunk.js",
+    "main.js": "/static/js/main.c427dc6d.js",
+    "static/js/787.49385184.chunk.js": "/static/js/787.49385184.chunk.js",
     "static/media/teapot_painpoint1.png": "/static/media/teapot_painpoint1.40a603a705be32f21d13.png",
     "static/media/teapot_rendered1.png": "/static/media/teapot_rendered1.87d565d3551e8a8420d4.png",
     "static/media/teapot_rendered2.png": "/static/media/teapot_rendered2.9a194a5d58a64fb6bcb4.png",
@@ -44,11 +44,11 @@
     "index.html": "/index.html",
     "static/media/star_icon.svg": "/static/media/star_icon.3416b9140d27f4bb72f1d54f25b4b1ce.svg",
     "main.1a827fe7.css.map": "/static/css/main.1a827fe7.css.map",
-    "main.4e311f70.js.map": "/static/js/main.4e311f70.js.map",
-    "787.8f1436d7.chunk.js.map": "/static/js/787.8f1436d7.chunk.js.map"
+    "main.c427dc6d.js.map": "/static/js/main.c427dc6d.js.map",
+    "787.49385184.chunk.js.map": "/static/js/787.49385184.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a827fe7.css",
-    "static/js/main.4e311f70.js"
+    "static/js/main.c427dc6d.js"
   ]
 }
