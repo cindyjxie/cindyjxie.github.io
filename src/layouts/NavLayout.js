@@ -19,7 +19,7 @@ function NavigationBar() {
 	return (
 		<nav className={`${isNavExpanded ? 'expanded' : ''}`}>
 			<div className='nav-container page-container'>
-				<HashLink to='/#top' className='home-nav-link'>Jennifer Xie</HashLink>
+				<HashLink to='/#top' className='home-nav-link'>Cindy J. Xie</HashLink>
         <FontAwesomeIcon 
           icon={faBars} 
           className='fa-lg' 

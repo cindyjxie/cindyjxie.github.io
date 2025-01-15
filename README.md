@@ -16,7 +16,7 @@ Launches the test runner in the interactive watch mode.
 
 ### `master` branch for React App
 
-The React App version is committed to the `master` branch of the repo `xjenniferxie.github.io`.
+The React App version is committed to the `master` branch of the repo `cindyjxie.github.io`.
 
 ### `gh-pages` branch for static build
 

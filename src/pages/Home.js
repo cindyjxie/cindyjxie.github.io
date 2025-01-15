@@ -94,7 +94,7 @@ function Home() {
           <div className='home-header'>
             <img src={headerIllustration} alt='' />
             <div className='home-header-text'>
-              <h1>Jennifer Xie</h1>
+              <h1>Cindy J. Xie</h1>
               <p>
                 Hey there! I'm a Game UI/UX Artist with previous experience as a 
                 UI/UX designer and software engineer at Twitter.
