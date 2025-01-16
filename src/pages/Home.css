@@ -1,29 +1,26 @@
 /* HOME */
 
 .home-section {
-  padding-top: 4.25rem;
-  padding-bottom: 4rem;
+  padding: 4rem 0;
 }
 
 .home-header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0 6rem;
-  margin-bottom: 2.25rem;
 }
 
 .home-header img {
   margin-right: 2.25rem;
-  height: 210px;
+  height: 380px;
 }
 
 .home-header h1 {
-  margin-bottom: var(--grid-small);
+  margin-bottom: var(--grid-xsmall);
 }
 
 .home-header p {
-  margin-bottom: var(--grid-xlarge);
+  margin-bottom: var(--grid-xsmall);
 }
 
 /* ABOUT */
