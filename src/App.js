@@ -2,10 +2,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import ScrollToTop from 'components/ScrollToTop.js'
 import NavLayout from 'layouts/NavLayout.js'
-import ProjectLayout from 'layouts/ProjectLayout.js'
 import Home from 'pages/Home.js'
 
 import 'App.css'
+import CreativeWork from 'pages/CreativeWork'
+import Reporting from 'pages/Reporting'
 
 function App() {
   return (
@@ -14,8 +15,11 @@ function App() {
       <Routes>
         <Route path='/' element={<NavLayout />}>
           <Route index element={<Home />} />
-          <Route path=':projectId' element={<ProjectLayout />}>
-          </Route>
+          <Route path='creativework' element={<CreativeWork />} />
+          <Route path='reporting' element={<Reporting />} />
+
+          {/* TODO use for future individual projects pages */}
+          {/* <Route path=':projectId' element={<ProjectLayout />} /> */}
         </Route>
       </Routes>
     </BrowserRouter>

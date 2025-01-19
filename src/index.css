@@ -1,44 +1,16 @@
 :root {
   /* General colors */
   --color-white: #FFFFFF;
-  --color-black: #000000;
-  --color-black-transparent: rgba(0,0,0,0.25);
-  --color-blue-link: #0277BD;
-  --color-brown-100: #F9F6EF;
-  --color-brown-300: #B6977E;
-  --color-brown-400: #A09277;
-  --color-brown-400-transparent: rgba(160,146,119,0.4);
-  --color-gold-100: #F8E1B3;
-  --color-gold-200: #debf8a;
-  --color-gold-300: #d0b07e;
-  --color-gold-400: #bd986a;
-  --color-gold-500: #ab7f54;
-
-  /* Home highlight colors */
-  --color-highlight-purple: #E0C6EF;
-  --color-highlight-pink: #EEC8DC;
-  --color-highlight-red: #ECC1B4;
-  --color-highlight-orange: #F7CFAB;
-  --color-highlight-yellow: #FFF1AF;
-
-  /* Project colors */
-  --color-green-base: #CEEAC5;
-  --color-green-shadow: #9BC38F;
-  --color-navy-base: #313976;
-  --color-navy-shadow: #171F58;
-  --color-pink-base: #F3D2E0;
-  --color-pink-shadow: #E9B8CC;
-  --color-light-blue-base: #AFD9F3;
-  --color-light-blue-shadow: #7CB8DD;
-  --color-medium-blue-base: #4466AE;
-  --color-medium-blue-shadow: #1E418C;
-  --color-lavender-base: #D6CCFF;
-  --color-lavender-shadow: #B0A6DC;
+  --color-black: #040203;
+  --color-link: #B77E33;
+  --color-beige-100: #F3F2ED;
+  --color-beige-200: #D9D4CB;
 
   /* Font */
-  --font-size-default: 1.1rem;
+  --font-size-default: 1.2rem;
 
   /* Grid */
+  --grid-xmicro: 0.15rem;
   --grid-micro: 0.2rem;
   --grid-xxsmall: 0.4rem;
   --grid-xsmall: 0.6rem;
@@ -53,54 +25,48 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: 400;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 350;
   font-size: var(--font-size-default);
   color: var(--color-black);
-  background-color: var(--color-white);
+  background-color: var(--color-beige-100);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  text-decoration: none;
-}
-
 /* Font Styles */
 h1, h2, h3, h4, h5 {
-  font-family: scotch-deck, serif;
+  font-family: 'Besley', serif;
   font-weight: 600;
   margin: 0;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4.2rem;
+  line-height: 5rem;
 }
 
 h2 {
-  font-size: 3.6rem;
+  font-size: 3.2rem;
 }
 
+/* Small uppercase headings */
 h3 {
-  font-size: 3.3rem;
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
+/* Reporting item titles */
 h4 {
-  font-size: 2.25rem;
-}
-
-h5 {
-  font-size: 2rem;
-}
-
-h6 {
-  font-size: var(--font-size-default);
-  font-weight: 700;
-  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 600;
 }
 
 p {
   font-size: var(--font-size-default);
+  line-height: 1.6rem;
   margin: 0;
 }
 
@@ -108,38 +74,43 @@ img {
   display: block;
 }
 
-/* set width and center */
+/* LINKS */
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: var(--color-black);
+}
+
+a:hover, a:active {
+  color: var(--color-link);
+}
+
+/* HEADER STYLES */
+
+.black-border-bottom {
+  border-bottom: 1.5px solid var(--color-black);
+}
+
+.black-border-top {
+  border-top: 1.5px solid var(--color-black);
+}
+
+.black-border-thick {
+  outline: 2.5px solid var(--color-black);
+}
+
+h1.page-header {
+  padding: 3.4rem 0;
+}
+
+/* GRIDS & CONTAINERS */
+
 .page-container {
   max-width: var(--grid-page-width);
 	margin: 0 auto;
-}
-
-.projects-grid {
-  display: flex;
-  flex-direction: column;
-  gap: var(--grid-xlarge);
-}
-
-.projects-grid-row {
-  display: flex;
-  flex-direction: row;
-  gap: var(--grid-xlarge);
-}
-
-.gold-border-bottom {
-  position: relative;
-}
-
-.gold-border-bottom::after {
-  content: '';
-  position: absolute;
-  bottom: -6px;
-  width: 100%;
-  border-bottom: 12px solid var(--color-gold-300);
-  border-image-source: url('assets/common/gold_border.png');
-  border-image-slice: 100;
-  border-image-repeat: repeat;
-  z-index: 1;
 }
 
 /* RESPONSIVE STYLES */
@@ -150,21 +121,11 @@ img {
 		max-width: none;
 	  margin: 0 var(--grid-xlarge);
 	}
-
-  .projects-grid, .projects-grid-row {
-    gap: var(--grid-medium);
-  }
 }
 
 /* Tablet mobile version */
 @media (max-width: 880px) {
-  .projects-grid {
-    margin: 0 auto;
-  }
 
-  .projects-grid-row {
-    flex-direction: column;
-  }
 }
 
 /* Phone mobile version */
@@ -172,4 +133,18 @@ img {
 	.page-container {
 	  margin: 0 var(--grid-medium);
 	}
+
+  h1 {
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  h1.page-header {
+    padding: var(--grid-mega) 0;
+  }
 }

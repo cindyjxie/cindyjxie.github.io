@@ -3,8 +3,7 @@ import { Outlet } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-
-import resume from 'assets/home/Jennifer_Xie_Resume_2022.pdf'
+import { faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 import 'layouts/NavLayout.css'
 
@@ -17,7 +16,7 @@ function NavigationBar() {
   }
 
 	return (
-		<nav className={`${isNavExpanded ? 'expanded' : ''}`}>
+		<nav className={`${isNavExpanded ? 'expanded' : ''} black-border-bottom`}>
 			<div className='nav-container page-container'>
 				<HashLink to='/#top' className='home-nav-link'>Cindy J. Xie</HashLink>
         <FontAwesomeIcon 
@@ -26,18 +25,25 @@ function NavigationBar() {
           onClick={() => reverseExpanded()}
         />
 				<div className='nav-menu'>
-					<HashLink to='/#projects'>Projects</HashLink>
-					<HashLink to='/#about'>About</HashLink>
-          <a href={resume} target='_blank' rel='noreferrer'>Resume</a>
-					<HashLink to='/#contact'>Contact</HashLink>
+					<HashLink to='/creativework'>Creative Work</HashLink>
+					<HashLink to='/reporting'>Reporting</HashLink>
+          <a href='https://www.linkedin.com/in/cindy-x/' target='_blank' rel='noreferrer'>
+            <FontAwesomeIcon icon={faLinkedinIn} className='fa-linkedin-in' />
+          </a>
+          <a href='https://twitter.com/cj_xie' target='_blank' rel='noreferrer'>
+            <FontAwesomeIcon icon={faTwitter} className='fa-twitter' />
+          </a>
 				</div>
 			</div>
       <div className='mobile-nav-menu'>
-        <HashLink to='/#top' onClick={() => reverseExpanded()}>Home</HashLink>
-        <HashLink to='/#projects' onClick={() => reverseExpanded()}>Projects</HashLink>
-        <HashLink to='/#about' onClick={() => reverseExpanded()}>About</HashLink>
-        <a href={resume} target='_blank' rel='noreferrer' onClick={() => reverseExpanded()}>Resume</a>
-        <HashLink to='/#contact' onClick={() => reverseExpanded()}>Contact</HashLink>
+        <HashLink to='/creativework' onClick={() => reverseExpanded()}>Creative Work</HashLink>
+        <HashLink to='/reporting' onClick={() => reverseExpanded()}>Reporting</HashLink>
+        <a href='https://www.linkedin.com/in/cindy-x/' target='_blank' rel='noreferrer' onClick={() => reverseExpanded()}>
+            <FontAwesomeIcon icon={faLinkedinIn} className='fa-linkedin-in' />
+        </a>
+        <a href='https://twitter.com/cj_xie' target='_blank' rel='noreferrer' onClick={() => reverseExpanded()}>
+          <FontAwesomeIcon icon={faTwitter} className='fa-twitter' />
+        </a>
       </div>
       <div 
         className='mobile-nav-backdrop'
@@ -47,11 +53,30 @@ function NavigationBar() {
 	)
 }
 
+function Footer() {
+  return (
+    <div className='footer black-border-top'>
+      <div className='footer-container page-container'>
+        <div className='footer-menu'>
+          <a href='https://www.linkedin.com/in/cindy-x/' target='_blank' rel='noreferrer'>
+            <FontAwesomeIcon icon={faLinkedinIn} className='fa-linkedin-in' />
+          </a>
+          <a href='https://twitter.com/cj_xie' target='_blank' rel='noreferrer'>
+            <FontAwesomeIcon icon={faTwitter} className='fa-twitter' />
+          </a>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 function NavLayout() {
   return (
-    <div>
+    <div className='nav-layout'>
 			<NavigationBar />
       <Outlet />
+      <div className='footer-top-space' />
+      <Footer />
     </div>
   )
 }
