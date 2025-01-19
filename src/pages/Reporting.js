@@ -13,8 +13,8 @@ function ReportingItem({ item }) {
   }
 
 function ReportingSection({ type }) {
-  return (
-    <div className='reporting-section'>
+  return ( 
+    <div className='reporting-section black-border-top'>
       <h3>{reportingData[type].title}</h3>
       <div className='reporting-row'>
         {reportingData[type].content.map((k) => <ReportingItem item={k} />)}
@@ -25,11 +25,9 @@ function ReportingSection({ type }) {
 
 function Reporting() {
   return (
-    <div className='main-page'>
-      <div className='page-container'>
-        <h1 className='page-header'>Reporting</h1>
-        {Object.keys(reportingData).map((k) => <ReportingSection type={k} />)}
-      </div>
+    <div className='page-container'>
+      <h1 className='page-header'>Reporting</h1>
+      {Object.keys(reportingData).map((k) => <ReportingSection type={k} />)}
     </div>
   )
 }

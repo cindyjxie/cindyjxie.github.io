@@ -9,7 +9,7 @@ function CreativeWorkItem({ item }) {
         <a href={item.link} target='_blank' rel='noreferrer'>{item.title}</a>
         ”
         &nbsp;in&nbsp;
-        {item.publication}
+        {item.useItalics ? <i>{item.publication}</i> : item.publication}
       </p>
     )
   }
@@ -25,11 +25,9 @@ function CreativeWorkSection({ type }) {
 
 function CreativeWork() {
   return (
-    <div className='main-page'>
-      <div className='page-container'>
-        <h1 className='page-header black-border-bottom'>Creative Work</h1>
-        {Object.keys(creativeWorkData).map((k) => <CreativeWorkSection type={k} />)}
-      </div>
+    <div className='page-container'>
+      <h1 className='page-header black-border-bottom'>Creative Work</h1>
+      {Object.keys(creativeWorkData).map((k) => <CreativeWorkSection type={k} />)}
     </div>
   )
 }

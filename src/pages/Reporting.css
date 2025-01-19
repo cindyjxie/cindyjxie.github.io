@@ -1,14 +1,13 @@
 .reporting-section {
-  border-top: 1.5px solid var(--color-black);
   padding-top: var(--grid-xxsmall);
-  padding-bottom: var(--grid-large);
+  padding-bottom: var(--grid-xlarge);
 }
 
 .reporting-row {
   display: flex;
   flex-direction: row;
   gap: var(--grid-mega);
-  margin: var(--grid-xlarge) 0;
+  margin: var(--grid-large) 0;
 }
 
 .reporting-item {
@@ -37,4 +36,22 @@ a.reporting-item:hover p.reporting-item-date, a.reporting-item:active p.reportin
 a.reporting-item:hover h4, a.reporting-item:active h4 {
   text-decoration: underline;
   text-underline-offset: var(--grid-xmicro);
+}
+
+/* Tablet mobile version */
+@media (max-width: 880px) {
+  .reporting-row {
+    gap: var(--grid-large);
+  }
+}
+
+@media (max-width: 532px) {
+  .reporting-section {
+    padding-bottom: var(--grid-xsmall);
+  }
+  
+  .reporting-row {
+    flex-direction: column;
+    gap: var(--grid-xlarge);
+  }
 }
