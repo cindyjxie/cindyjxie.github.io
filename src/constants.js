@@ -6,6 +6,24 @@ export const creativeWorkData = [
     title: 'Poetry',
     content: [
       {
+        title: 'If Honey Bees Could Google',
+        publication: 'Anthroposphere: The Oxford Climate Review (forthcoming)',
+        useItalics: true,
+        link: 'https://www.anthroposphere.co.uk/explore'
+      },
+      {
+        title: 'Letters on Care',
+        publication: 'Climate Storytelling 2075 Anthropology Vol. 2 (in workshop as part of 2025 cohort)',
+        useItalics: true,
+        link: 'https://climatefutures.art/cohort-2025'
+      },
+      {
+        title: '1882',
+        publication: '2025 City of Boston Mayor’s Poetry Program',
+        useItalics: true,
+        link: 'https://www.boston.gov/calendar/mayors-poetry-program-reading-2'
+      },
+      {
         title: 'Praia',
         publication: 'MassPoetry Futures in Verse (2024 Intercollegiate Poetry Showcase Anthology)',
         useItalics: true,

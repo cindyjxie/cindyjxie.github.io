@@ -55,7 +55,7 @@ function Home() {
             <div className='home-header-text'>
                 <h1>Cindy J. Xie</h1>
                 <p>
-                    I’m an interdisciplinary researcher. facilitator, and storyteller 
+                    I’m an interdisciplinary researcher, facilitator, and storyteller 
                     and a current master’s student in the MIT Department of Urban 
                     Studies & Planning. In the past, I’ve done policy and convening work 
                     with organizations like the Planetary Health Alliance, the U.S. 
