@@ -8,7 +8,7 @@ function CreativeWorkItem({ item }) {
         “
         <a href={item.link} target='_blank' rel='noreferrer'>{item.title}</a>
         ”
-        &nbsp;in&nbsp;
+        in&nbsp;
         {item.useItalics ? <i>{item.publication}</i> : item.publication}
       </p>
     )
