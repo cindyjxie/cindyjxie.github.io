@@ -13,7 +13,7 @@ export const creativeWorkData = [
       },
       {
         title: 'Letters on Care',
-        publication: 'Climate Storytelling 2075 Anthropology Vol. 2 (in workshop as part of 2025 cohort)',
+        publication: 'Climate Storytelling 2075 Anthology Vol. 2 (in workshop as part of 2025 cohort)',
         useItalics: true,
         link: 'https://climatefutures.art/cohort-2025'
       },
