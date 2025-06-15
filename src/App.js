@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 import ScrollToTop from 'components/ScrollToTop.js'
 import NavLayout from 'layouts/NavLayout.js'
@@ -10,7 +10,7 @@ import Reporting from 'pages/Reporting'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <Routes>
         <Route path='/' element={<NavLayout />}>
@@ -22,7 +22,7 @@ function App() {
           {/* <Route path=':projectId' element={<ProjectLayout />} /> */}
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
