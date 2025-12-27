@@ -7,13 +7,13 @@ export const creativeWorkData = [
     content: [
       {
         title: 'If Honey Bees Could Google',
-        publication: 'Anthroposphere: The Oxford Climate Review (forthcoming)',
+        publication: 'Anthroposphere: The Oxford Climate Review',
         useItalics: true,
-        link: 'https://www.anthroposphere.co.uk/explore'
+        link: 'https://www.anthroposphere.co.uk/post/if-honey-bees-could-google'
       },
       {
         title: 'Letters on Care',
-        publication: 'Climate Storytelling 2075 Anthology Vol. 2 (in workshop as part of 2025 cohort)',
+        publication: 'Climate Storytelling 2075 Anthology Vol. 2',
         useItalics: true,
         link: 'https://climatefutures.art/cohort-2025'
       },
