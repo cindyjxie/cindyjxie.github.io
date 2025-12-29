@@ -66,6 +66,9 @@ function Home() {
                     has been featured in outlets including <i>Sine Theta</i>, Climate Storytelling 2075,
                     MassPoetry, and the City of Boston Arts & Culture Office.
                 </p>
+                <p>
+                    I grew up and am currently based in Los Angeles.
+                </p>
             </div>
           </div>
         </div>
