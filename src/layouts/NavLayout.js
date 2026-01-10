@@ -25,6 +25,7 @@ function NavigationBar() {
           onClick={() => reverseExpanded()}
         />
 				<div className='nav-menu'>
+          <HashLink to='/academicwork'>Academic Work</HashLink>
 					<HashLink to='/creativework'>Creative Work</HashLink>
 					<HashLink to='/reporting'>Reporting</HashLink>
           <a href='https://www.linkedin.com/in/cindy-x/' target='_blank' rel='noreferrer'>
@@ -36,6 +37,7 @@ function NavigationBar() {
 				</div>
 			</div>
       <div className='mobile-nav-menu'>
+        <HashLink to='/academicwork' onClick={() => reverseExpanded()}>Academic Work</HashLink>
         <HashLink to='/creativework' onClick={() => reverseExpanded()}>Creative Work</HashLink>
         <HashLink to='/reporting' onClick={() => reverseExpanded()}>Reporting</HashLink>
         <a href='https://www.linkedin.com/in/cindy-x/' target='_blank' rel='noreferrer' onClick={() => reverseExpanded()}>

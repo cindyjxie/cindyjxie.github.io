@@ -14,7 +14,3 @@
   text-decoration: underline;
   text-underline-offset: var(--grid-xmicro);
 }
-
-.creative-work-item a:hover, .creative-work-item a:active {
-  text-decoration: none;
-}

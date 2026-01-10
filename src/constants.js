@@ -1,6 +1,50 @@
 import mitRegressionsImg from 'assets/reporting/mit_regressions.png'
 
-// useItalics is an optional field
+// usePublicationFormat - Set to true if you want to use the publication formatting. 
+//                        Set to false if you just want the year and a block of text.
+// useItalicsOnPublication - Optional field. Only used if you are using the publication formatting.
+//              Set to true if you want the publication name to be italicized.
+export const academicWorkData = [
+  {
+    title: 'Publications',
+    content: [
+      {
+        usePublicationFormat: true,
+        year: '2025',
+        name: 'Xie, Cindy J. & Anjali Venketram.',
+        title: 'Environmental Justice Implications of Indonesia’s Capital Relocation from Jakarta to Nusantara.',
+        publication: 'Urban Climate Change Research Network. Third Assessment Report on Climate Change and Cities (ARC3.3) Case Study Docking Station.',
+        link: 'https://academiccommons.columbia.edu/doi/10.7916/rre8-0j89'
+      },
+      {
+        usePublicationFormat: true,
+        year: '2021',
+        name: 'Xie, Cindy J. & Anjali Venketram.',
+        title: 'Environmental Justice Implications of Indonesia’s Capital Relocation from Jakarta to Nusantara.',
+        publication: 'Urban Climate Change Research Network. Third Assessment Report on Climate Change and Cities (ARC3.3) Case Study Docking Station.',
+        useItalicsOnPublication: true,
+        link: 'https://academiccommons.columbia.edu/doi/10.7916/rre8-0j89'
+      }
+    ]   
+  },
+  {
+    title: 'Publications',
+    content: [
+      {
+        usePublicationFormat: false,
+        year: '2021',
+        text: 'Invited Talk: “Colaborações Multidisciplinares no Campo da Saúde Planetária.” 4th Annual Workshop of the Nucleus for Environmental Studies and Research. Universidade Federal do Maranhão, São Luís, Brazil. November 4.',
+      },
+      {
+        usePublicationFormat: false,
+        year: '2025',
+        text: 'Invited Talk: “Colaborações Multidisciplinares no Campo da Saúde Planetária.” 4th Annual Workshop of the Nucleus for Environmental Studies and Research. Universidade Federal do Maranhão, São Luís, Brazil. November 4.',
+      }
+    ]   
+  }
+]
+
+// useItalicsOnPublication - Optional field, set to true if you want the publication name to be italicized.
 export const creativeWorkData = [
   {
     title: 'Poetry',
@@ -8,31 +52,31 @@ export const creativeWorkData = [
       {
         title: 'If Honey Bees Could Google',
         publication: 'Anthroposphere: The Oxford Climate Review (forthcoming)',
-        useItalics: true,
+        useItalicsOnPublication: true,
         link: 'https://www.anthroposphere.co.uk/explore'
       },
       {
         title: 'Letters on Care',
         publication: 'Climate Storytelling 2075 Anthology Vol. 2 (in workshop as part of 2025 cohort)',
-        useItalics: true,
+        useItalicsOnPublication: true,
         link: 'https://climatefutures.art/cohort-2025'
       },
       {
         title: '1882',
         publication: '2025 City of Boston Mayor’s Poetry Program',
-        useItalics: true,
+        useItalicsOnPublication: true,
         link: 'https://www.boston.gov/calendar/mayors-poetry-program-reading-2'
       },
       {
         title: 'Praia',
         publication: 'MassPoetry Futures in Verse (2024 Intercollegiate Poetry Showcase Anthology)',
-        useItalics: true,
+        useItalicsOnPublication: true,
         link: 'https://masspoetry.org/events/intercollegiate-poetry-showcase/'
       },
       {
         title: 'All Nighter to Sit in a Parking Lot at Sunrise',
         publication: 'Sine Theta',
-        useItalics: true,
+        useItalicsOnPublication: true,
         link: 'https://sinetheta.net/30.html'
       }
     ]   

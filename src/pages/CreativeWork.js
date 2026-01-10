@@ -3,16 +3,16 @@ import { creativeWorkData } from 'constants.js'
 import 'pages/CreativeWork.css'
 
 function CreativeWorkItem({ item }) {
-    return (
-      <p className='creative-work-item'>
-        “
-        <a href={item.link} target='_blank' rel='noreferrer'>{item.title}</a>
-        ”
-        in&nbsp;
-        {item.useItalics ? <i>{item.publication}</i> : item.publication}
-      </p>
-    )
-  }
+  return (
+    <p className='creative-work-item'>
+      “
+      <a href={item.link} target='_blank' rel='noreferrer'>{item.title}</a>
+      ”
+      in&nbsp;
+      {item.useItalicsOnPublication ? <i>{item.publication}</i> : item.publication}
+    </p>
+  )
+}
 
 function CreativeWorkSection({ type }) {
   return (

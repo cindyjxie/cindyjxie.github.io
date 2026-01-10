@@ -1,6 +1,7 @@
 import { HashLink } from 'react-router-hash-link'
 
 import headerImg from 'assets/home/home_header_img.png'
+import academicWorkImg from 'assets/home/home_category_academicwork.png'
 import creativeWorkImg from 'assets/home/home_category_creativework.png'
 import reportingImg from 'assets/home/home_category_reporting.png'
 
@@ -8,13 +9,22 @@ import 'pages/Home.css'
 
 const categoryData = [
   {
+    title: 'Academic Work',
+    blurb: 'Publications, talks, and presentations based on my academic work and research.',
+    image: academicWorkImg,
+    imageAltText: '',
+    buttonText: 'Read Here',
+    buttonPage: 'academicwork',
+    imgAlign: 'img-right-align'
+  },
+  {
     title: 'Creative Work',
     blurb: 'Poems, personal essays, interview profiles, and coverage of initiatives I have led.',
     image: creativeWorkImg,
     imageAltText: '',
     buttonText: 'Read Here',
     buttonPage: 'creativework',
-    imgAlign: 'img-right-align'
+    imgAlign: 'img-left-align'
   },
   {
     title: 'Reporting',
@@ -23,7 +33,7 @@ const categoryData = [
     imageAltText: '',
     buttonText: 'Read Here',
     buttonPage: 'reporting',
-    imgAlign: 'img-left-align'
+    imgAlign: 'img-right-align'
   }
 ]
 
