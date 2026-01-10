@@ -65,17 +65,19 @@ function Home() {
             <div className='home-header-text'>
                 <h1>Cindy J. Xie</h1>
                 <p>
-                    I’m an interdisciplinary researcher, facilitator, and storyteller 
-                    and a current master’s student in the MIT Department of Urban 
-                    Studies & Planning. In the past, I’ve done policy and convening work 
-                    with organizations like the Planetary Health Alliance, the U.S. 
-                    National Institutes of Health, and the World Wildlife Fund Markets 
-                    Institute.
+                    I’m a researcher, facilitator, and storyteller who recently graduated 
+                    from the Master in City Planning program at the Massachusetts Institute of 
+                    Technology. In the past, I’ve done policy and convening work with organizations 
+                    like the Planetary Health Alliance, the U.S. National Institutes of Health, and 
+                    the World Wildlife Fund Markets Institute.
                 </p>
                 <p>
                     I was previously a staff writer at <i>The Yappie</i>, and my poetry 
-                    has been included in <i>Sine Theta</i> and MassPoetry’s 2024 
-                    Intercollegiate Anthology.
+                    has been featured in outlets including <i>Sine Theta</i>, Climate Storytelling 2075,
+                    MassPoetry, and the City of Boston Arts & Culture Office.
+                </p>
+                <p>
+                    I grew up and am currently based in Los Angeles.
                 </p>
             </div>
           </div>

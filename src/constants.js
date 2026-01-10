@@ -50,16 +50,16 @@ export const creativeWorkData = [
     title: 'Poetry',
     content: [
       {
-        title: 'If Honey Bees Could Google',
-        publication: 'Anthroposphere: The Oxford Climate Review (forthcoming)',
-        useItalicsOnPublication: true,
-        link: 'https://www.anthroposphere.co.uk/explore'
+        title: 'Letters on Care',
+        publication: 'Climate Storytelling 2075 Anthology Volume II',
+        useItalics: true,
+        link: 'https://climatefutures.art/cohort-2025'
       },
       {
-        title: 'Letters on Care',
-        publication: 'Climate Storytelling 2075 Anthology Vol. 2 (in workshop as part of 2025 cohort)',
-        useItalicsOnPublication: true,
-        link: 'https://climatefutures.art/cohort-2025'
+        title: 'If Honey Bees Could Google',
+        publication: 'Anthroposphere: The Oxford Climate Review',
+        useItalics: true,
+        link: 'https://www.anthroposphere.co.uk/post/if-honey-bees-could-google'
       },
       {
         title: '1882',
@@ -84,6 +84,11 @@ export const creativeWorkData = [
   {
     title: 'Essays and Interviews',
     content: [
+      {
+        title: 'Falling Forward: My Experience as a Visiting Researcher at SPPHERE Lab and SDRC',
+        publication: 'SDRC Newsletter',
+        link: 'https://www.dlsu.edu.ph/wp-content/uploads/pdf/sdrc/newsletter/sdrc-newsletter-october2025-issue.pdf'
+      },
       {
         title: 'Where are you Really From?',
         publication: 'MISTI Blogs',
