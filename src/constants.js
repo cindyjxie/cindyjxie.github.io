@@ -33,7 +33,7 @@ export const academicWorkData = [
         year: '2022',
         name: 'Xie, Cindy.',
         title: 'Digital Health at the NIH: Trends, Challenges, and Opportunities.',
-        titleLink: 'http://murj.mit.edu/',
+        titleLink: 'https://murj.webflow.io/',
         publication: 'MIT Undergraduate Research Journal 44',
         useItalicsOnPublication: true,
         publicationPostText: '(Fall 2022): 31-40.'

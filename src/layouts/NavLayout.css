@@ -61,6 +61,13 @@ nav a:hover, nav a:active {
   color: var(--color-link);
 }
 
+/* Font Awesome google scholar icon wasn't available in free-brands-svg-icons, 
+so I added the same styling for the direct svg */
+svg.google-scholar-svg {
+  height: 1em;
+  vertical-align: -2.4px;
+}
+
 /* FOOTER */ 
 
 .footer-top-space {
