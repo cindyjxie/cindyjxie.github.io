@@ -3,6 +3,7 @@
   --color-white: #FFFFFF;
   --color-black: #040203;
   --color-link: #B77E33;
+  --color-link-dark: #824E0A;
   --color-beige-100: #F3F2ED;
   --color-beige-200: #D9D4CB;
 
@@ -85,6 +86,19 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
+  color: var(--color-link);
+}
+
+a.work-item-link {
+  text-decoration: underline;
+  text-underline-offset: var(--grid-xmicro);
+}
+
+a.work-item-link:link, a.work-item-link:visited {
+  color: var(--color-link-dark);
+}
+
+a.work-item-link:hover, a.work-item-link:active {
   color: var(--color-link);
 }
 

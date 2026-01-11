@@ -9,8 +9,3 @@
 .creative-work-item {
   margin: var(--grid-xxsmall) 0;
 }
-
-.creative-work-item a {
-  text-decoration: underline;
-  text-underline-offset: var(--grid-xmicro);
-}

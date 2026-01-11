@@ -6,7 +6,7 @@ function CreativeWorkItem({ item }) {
   return (
     <p className='creative-work-item'>
       “
-      <a href={item.link} target='_blank' rel='noreferrer'>{item.title}</a>
+      <a className='work-item-link' href={item.link} target='_blank' rel='noreferrer'>{item.title}</a>
       ”
       in&nbsp;
       {item.useItalicsOnPublication ? <i>{item.publication}</i> : item.publication}
