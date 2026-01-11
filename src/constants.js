@@ -4,6 +4,8 @@ import mitRegressionsImg from 'assets/reporting/mit_regressions.png'
 //                        Set to false if you just want the year and a block of text.
 // useItalicsOnPublication - Optional field. Only used if you are using the publication formatting.
 //              Set to true if you want the publication name to be italicized.
+// publicationPostText - Optional field. For non-italicized text after the italicized portion of 
+//                       the publication name.
 export const academicWorkData = [
   {
     title: 'Publications',
@@ -13,32 +15,93 @@ export const academicWorkData = [
         year: '2025',
         name: 'Xie, Cindy J. & Anjali Venketram.',
         title: 'Environmental Justice Implications of Indonesia’s Capital Relocation from Jakarta to Nusantara.',
-        publication: 'Urban Climate Change Research Network. Third Assessment Report on Climate Change and Cities (ARC3.3) Case Study Docking Station.',
-        link: 'https://academiccommons.columbia.edu/doi/10.7916/rre8-0j89'
+        titleLink: 'https://academiccommons.columbia.edu/doi/10.7916/rre8-0j89',
+        publication: 'Urban Climate Change Research Network. Third Assessment Report on Climate Change and Cities (ARC3.3) Case Study Docking Station.'
+      },
+      {
+        usePublicationFormat: true,
+        year: '2025',
+        name: 'Rabe, Christopher, Susy Jones, Cindy J. Xie, Maria Minkova, and Nina G. Lytton.',
+        title: 'Exploring Climate Change and Emotions on Campus: From Distress to Action.',
+        titleLink: 'https://link.springer.com/chapter/10.1007/978-3-031-80434-2_47',
+        publication: 'North American and European Perspectives on Sustainability in Higher Education.',
+        useItalicsOnPublication: true,
+        publicationPostText: 'Springer Nature.'
+      },
+      {
+        usePublicationFormat: true,
+        year: '2022',
+        name: 'Xie, Cindy.',
+        title: 'Digital Health at the NIH: Trends, Challenges, and Opportunities.',
+        titleLink: 'http://murj.mit.edu/',
+        publication: 'MIT Undergraduate Research Journal 44',
+        useItalicsOnPublication: true,
+        publicationPostText: '(Fall 2022): 31-40.'
       },
       {
         usePublicationFormat: true,
         year: '2021',
-        name: 'Xie, Cindy J. & Anjali Venketram.',
-        title: 'Environmental Justice Implications of Indonesia’s Capital Relocation from Jakarta to Nusantara.',
-        publication: 'Urban Climate Change Research Network. Third Assessment Report on Climate Change and Cities (ARC3.3) Case Study Docking Station.',
+        name: 'Pollozi, Shejla, Cindy Xie, and Sumedha Sachar.',
+        title: 'An interview with Professor Florence Bourgeois: On policy and regulation of clinical trials.',
+        titleLink: 'https://sciencepolicyreview.org/2021/08/florence-bourgeois-policy-regulation-clinical-trials/',
+        publication: 'MIT Science Policy Review 2',
         useItalicsOnPublication: true,
-        link: 'https://academiccommons.columbia.edu/doi/10.7916/rre8-0j89'
+        publicationPostText: '(2021): 123-126.'
       }
     ]   
   },
   {
-    title: 'Publications',
+    title: 'Talks and Public Engagements',
     content: [
       {
         usePublicationFormat: false,
-        year: '2021',
-        text: 'Invited Talk: “Colaborações Multidisciplinares no Campo da Saúde Planetária.” 4th Annual Workshop of the Nucleus for Environmental Studies and Research. Universidade Federal do Maranhão, São Luís, Brazil. November 4.',
+        year: '2025',
+        text: 'Invited Talk: “Colaborações Multidisciplinares no Campo da Saúde Planetária.” 4th Annual Workshop of the Nucleus for Environmental Studies and Research. Universidade Federal do Maranhão, São Luís, Brazil. November 4.'
       },
       {
         usePublicationFormat: false,
         year: '2025',
-        text: 'Invited Talk: “Colaborações Multidisciplinares no Campo da Saúde Planetária.” 4th Annual Workshop of the Nucleus for Environmental Studies and Research. Universidade Federal do Maranhão, São Luís, Brazil. November 4.',
+        text: 'Invited Talk: “The Roles and Opportunities of Multi-Disciplinary Collaboration and Convening for Addressing Climate Change and Health Interactions.” De La Salle University Manila [online].'
+      },
+      {
+        usePublicationFormat: false,
+        year: '2025',
+        text: 'Invited Talk: “Environment-Health Interactions, One Health, and Planetary Health,” Universidade Jean Piaget de Cabo Verde [online]'
+      },
+      {
+        usePublicationFormat: false,
+        year: '2023',
+        text: 'Invited Speaker: “Engaging Youth in Cultural Change for Planetary Health.” 2023 Conference: Seeds of Change, NOVA Institute [online].'
+      },
+      {
+        usePublicationFormat: false,
+        year: '2023',
+        text: 'Workshop Facilitator: “Writing Alternative Climate Futures.” 2023 Multicultural Conference, Massachusetts Institute of Technology Intercultural Engagement. Dedham, MA.'
+      }
+    ]   
+  },
+  {
+    title: 'Conference Posters and Presentations',
+    content: [
+      {
+        usePublicationFormat: false,
+        year: '2025',
+        text: 'Panel Presentation: “Lived Experiences of Climate Change and Human Health in Santiago Island, Cabo Verde.” American Ethnological Society Spring Conference. Cambridge, MA.'
+      },
+      {
+        usePublicationFormat: false,
+        year: '2025',
+        text: 'Poster: “‘Cultural Transformation for Planetary Health’: A Campus Dialogue Series.” Climate-Health Equity Day, Medical Students For a Sustainable Future. Washington, DC.'
+      },
+      {
+        usePublicationFormat: false,
+        year: '2024',
+        text: 'Poster: “‘Cultural Transformation for Planetary Health’: The Co-Creation of a Campus Movement through Participatory Convening and Dialogue.” 2024 Planetary Health Summit & 6th Annual Meeting, Sunway Center for Planetary Health. Kuala Lumpur, Malaysia.'
+      },
+      {
+        usePublicationFormat: false,
+        year: '2023',
+        text: 'Panel Presentation: “Exploring Climate Change and Emotions on Campus: From Distress to Action.” Transatlantic Symposium on Sustainable Development in Higher Education, Massachusetts Institute of Technology. Cambridge, MA.'
       }
     ]   
   }

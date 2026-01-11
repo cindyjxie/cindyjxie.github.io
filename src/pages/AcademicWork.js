@@ -9,9 +9,10 @@ function AcademicWorkPublicationItem({ item }) {
       <p>
         {item.name}
         &nbsp;“
-        <a href={item.link} target='_blank' rel='noreferrer'>{item.title}</a>
+        <a href={item.titleLink} target='_blank' rel='noreferrer'>{item.title}</a>
         ”&nbsp;
         {item.useItalicsOnPublication ? <i>{item.publication}</i> : item.publication}
+        {item.publicationPostText ? ` ${item.publicationPostText}` : null}
       </p>
     </div>
   )
