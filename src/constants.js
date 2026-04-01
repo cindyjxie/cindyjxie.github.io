@@ -113,15 +113,21 @@ export const creativeWorkData = [
     title: 'Poetry',
     content: [
       {
+        title: 'Family Historiography',
+        publication: 'Pluto\'s',
+        useItalicsOnPublication: true,
+        link: 'https://www.welcometoplutos.com/zines/heavenisamoshpit'
+      },
+      {
         title: 'Letters on Care',
         publication: 'Climate Storytelling 2075 Anthology Volume II',
-        useItalics: true,
+        useItalicsOnPublication: true,
         link: 'https://climatefutures.art/cohort-2025'
       },
       {
         title: 'If Honey Bees Could Google',
         publication: 'Anthroposphere: The Oxford Climate Review',
-        useItalics: true,
+        useItalicsOnPublication: true,
         link: 'https://www.anthroposphere.co.uk/post/if-honey-bees-could-google'
       },
       {
@@ -150,16 +156,19 @@ export const creativeWorkData = [
       {
         title: 'Falling Forward: My Experience as a Visiting Researcher at SPPHERE Lab and SDRC',
         publication: 'SDRC Newsletter',
+        useItalicsOnPublication: true,
         link: 'https://www.dlsu.edu.ph/wp-content/uploads/pdf/sdrc/newsletter/sdrc-newsletter-october2025-issue.pdf'
       },
       {
         title: 'Where are you Really From?',
         publication: 'MISTI Blogs',
+        useItalicsOnPublication: true,
         link: 'https://mistiblogs.com/2023/08/03/between-race-ethnicity/'
       },
       {
         title: 'Congo Clothing Company: Streetwear for Social Justice',
         publication: 'Infinite Magazine',
+        useItalicsOnPublication: true,
         link: 'https://static1.squarespace.com/static/61c2186ddb919d51e7522e72/t/64703a45d830b35a11ebd9c7/1685076566038/CCCLayout1.pdf'
     }
     ] 
@@ -170,11 +179,13 @@ export const creativeWorkData = [
       {
         title: 'MIT Planetary Health Ambassador Brings Students Together to Discuss the Effects of Environmental Change on Health and Well-Being',
         publication: 'MIT Division of Student Life News',
+        useItalicsOnPublication: true,
         link: 'https://studentlife.mit.edu/mit-planetary-health-ambassador-brings-students-together-discuss-effects-environmental-change-health'
       },
       {
         title: 'Convening for Cultural Change',
         publication: 'MIT News',
+        useItalicsOnPublication: true,
         link: 'https://news.mit.edu/2024/cindy-xie-convening-cultural-change-0528'
       }
     ] 
