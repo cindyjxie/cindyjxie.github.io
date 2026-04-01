@@ -253,12 +253,6 @@ export const reportingData = [
         date: 'August 30, 2021',
         link: 'https://sciencepolicyreview.org/2021/08/florence-bourgeois-policy-regulation-clinical-trials/',
         image: 'https://sciencepolicyreview.org/wp-content/uploads/2021/08/IMG_1441-1024x565.jpeg'
-      },
-      {
-        title: 'Delivering customer service to water service users: The role of third parties',
-        date: 'March 23, 2021',
-        link: 'https://americanwatershutoffs.mit.edu/blog/delivering-customer-assistance-water-service-users-role-third-parties',
-        image: 'https://americanwatershutoffs.mit.edu/sites/default/files/images/Water%20Faucet%20Image.jpg'
       }
     ]   
   },
