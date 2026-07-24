@@ -16,7 +16,7 @@ export const academicWorkData = [
         name: 'Tavares, Silvany Simone, Cindy J. Xie, Amulya Aluru, Illyane Sofia M. Lima, Ana Catarina Pêgo, and Raffaella Gozzelino.',
         title: 'Climate change, health and environmental policy in Africa: structural constraints, regional disparities and global inequities.',
         titleLink: 'https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1816888',
-        publication: 'Frontiers in Public Health '
+        publication: 'Frontiers in Public Health ',
         useItalicsOnPublication: true,
         publicationPostText: '14 (2026): 1816888.'
       },
