@@ -12,6 +12,16 @@ export const academicWorkData = [
     content: [
       {
         usePublicationFormat: true,
+        year: '2026',
+        name: 'Tavares, Silvany Simone, Cindy J. Xie, Amulya Aluru, Illyane Sofia M. Lima, Ana Catarina Pêgo, and Raffaella Gozzelino.',
+        title: 'Climate change, health and environmental policy in Africa: structural constraints, regional disparities and global inequities.',
+        titleLink: 'https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1816888',
+        publication: 'Frontiers in Public Health '
+        useItalicsOnPublication: true,
+        publicationPostText: '14 (2026): 1816888.'
+      },
+      {
+        usePublicationFormat: true,
         year: '2025',
         name: 'Xie, Cindy J. & Anjali Venketram.',
         title: 'Environmental Justice Implications of Indonesia’s Capital Relocation from Jakarta to Nusantara.',
@@ -34,9 +44,9 @@ export const academicWorkData = [
         name: 'Xie, Cindy.',
         title: 'Digital Health at the NIH: Trends, Challenges, and Opportunities.',
         titleLink: 'https://murj.webflow.io/',
-        publication: 'MIT Undergraduate Research Journal 44',
+        publication: 'MIT Undergraduate Research Journal',
         useItalicsOnPublication: true,
-        publicationPostText: '(Fall 2022): 31-40.'
+        publicationPostText: '44 (Fall 2022): 31-40.'
       },
       {
         usePublicationFormat: true,
@@ -53,6 +63,11 @@ export const academicWorkData = [
   {
     title: 'Talks and Public Engagements',
     content: [
+      {
+        usePublicationFormat: false,
+        year: '2026',
+        text: 'Podcast Interview: “Letters on Care.” Los Angeles Climate Week Art & Culture Day, Los Angeles, CA, USA. April 11.'
+      },
       {
         usePublicationFormat: false,
         year: '2025',
@@ -113,6 +128,12 @@ export const creativeWorkData = [
     title: 'Poetry',
     content: [
       {
+        title: 'I Heard We\'re Throwing It Back to 2016',
+        publication: 'Xenolithic Edges Literary (forthcoming)',
+        useItalicsOnPublication: false,
+        link: 'https://www.xenolithicedgesliterary.com/issues/issue-i'
+      },
+      {
         title: 'Family Historiography',
         publication: 'Pluto\'s',
         useItalicsOnPublication: true,
@@ -122,7 +143,7 @@ export const creativeWorkData = [
         title: 'Letters on Care',
         publication: 'Climate Storytelling 2075 Anthology Volume II',
         useItalicsOnPublication: true,
-        link: 'https://climatefutures.art/cohort-2025'
+        link: 'https://climatefutures.art/letters-on-care'
       },
       {
         title: 'If Honey Bees Could Google',
