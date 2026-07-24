@@ -91,7 +91,7 @@ export const academicWorkData = [
       {
         usePublicationFormat: false,
         year: '2023',
-        text: 'Workshop Facilitator: “Writing Alternative Climate Futures.” 2023 Multicultural Conference, Massachusetts Institute of Technology Intercultural Engagement. Dedham, MA.'
+        text: 'Workshop Facilitator: “Writing Alternative Climate Futures.” 2023 Multicultural Conference, Massachusetts Institute of Technology Intercultural Engagement. Dedham, MA, USA.'
       }
     ]   
   },
@@ -101,12 +101,12 @@ export const academicWorkData = [
       {
         usePublicationFormat: false,
         year: '2025',
-        text: 'Panel Presentation: “Lived Experiences of Climate Change and Human Health in Santiago Island, Cabo Verde.” American Ethnological Society Spring Conference. Cambridge, MA.'
+        text: 'Panel Presentation: “Lived Experiences of Climate Change and Human Health in Santiago Island, Cabo Verde.” American Ethnological Society Spring Conference. Cambridge, MA, USA.'
       },
       {
         usePublicationFormat: false,
         year: '2025',
-        text: 'Poster: “‘Cultural Transformation for Planetary Health’: A Campus Dialogue Series.” Climate-Health Equity Day, Medical Students For a Sustainable Future. Washington, DC.'
+        text: 'Poster: “‘Cultural Transformation for Planetary Health’: A Campus Dialogue Series.” Climate-Health Equity Day, Medical Students For a Sustainable Future. Washington, DC, USA.'
       },
       {
         usePublicationFormat: false,
@@ -116,7 +116,7 @@ export const academicWorkData = [
       {
         usePublicationFormat: false,
         year: '2023',
-        text: 'Panel Presentation: “Exploring Climate Change and Emotions on Campus: From Distress to Action.” Transatlantic Symposium on Sustainable Development in Higher Education, Massachusetts Institute of Technology. Cambridge, MA.'
+        text: 'Panel Presentation: “Exploring Climate Change and Emotions on Campus: From Distress to Action.” Transatlantic Symposium on Sustainable Development in Higher Education, Massachusetts Institute of Technology. Cambridge, MA, USA.'
       }
     ]   
   }
@@ -129,8 +129,8 @@ export const creativeWorkData = [
     content: [
       {
         title: 'I Heard We\'re Throwing It Back to 2016',
-        publication: 'Xenolithic Edges Literary (forthcoming)',
-        useItalicsOnPublication: false,
+        publication: 'Xenolithic Edges Literary',
+        useItalicsOnPublication: true,
         link: 'https://www.xenolithicedgesliterary.com/issues/issue-i'
       },
       {
